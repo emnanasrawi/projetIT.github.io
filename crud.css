@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  #container {
+    padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(227, 226, 226);
+  align-items: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+  
+  }
+  
+  #input-container {
+    margin-bottom: 40px;
+  }
+  
+  
+  
+  input
+   {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input:focus
+  {
+  
+    /* border-color: red; */
+    outline: 0;
+  
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0c16a0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #378181;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #0c16a0;
+    color: white;
+  }
+  
+  
+  
+  #update-btn {
+    background-color: #2911b1;
+    display: none;
+  }
+  
+  #cancel-btn {
+    background-color: #7a19d4;
+    display: none;
+  }
+  
+  .edit-btn{
+    background-color: #23a09a;
+  }
+  
+  .delete-btn{
+    background-color: #db293a;
+    margin-left:10px;
+  
+  }
